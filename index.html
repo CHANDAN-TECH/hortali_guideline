@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class='container clearfix'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: 10px;">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.jfif" width="60" height="60">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cart</button>
+                </form>
+            </div>
+        </nav>
+        <h3 style="margin-top: 10px;">Products</h3>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 15rem; margin: 10px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <img src="./pic1.jpeg" height="80" width="80">
+                            <h5 class="card-title" style="margin-left: 10px;">Phones</h5>
+                        </div>
+                        <div class="text-center" style="margin-top: 20px;">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 15rem; margin: 10px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <img src="./pic2.jpeg" alt="Smiley face" height="80" width="80">
+                            <h5 class="card-title" style="margin-left: 10px;">Shoes</h5>
+                        </div>
+                        <div class="text-center" style="margin-top: 20px;">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 15rem; margin: 10px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <img src="./pic3.jpeg" alt="Smiley face" height="80" width="80">
+                            <h5 class="card-title" style="margin-left: 10px;">Watches</h5>
+                        </div>
+                        <div class="text-center" style="margin-top: 20px;">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 15rem; margin: 10px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <img src="./pic4.jpeg" alt="Smiley face" height="80" width="80">
+                            <h5 class="card-title" style="margin-left: 10px;">Budha</h5>
+                        </div>
+                        <div class="text-center" style="margin-top: 20px;">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 15rem; margin: 10px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <img src="./pic5.jpeg" alt="Smiley face" height="80" width="80">
+                            <h5 class="card-title" style="margin-left: 10px;">Lunch Box</h5>
+                        </div>
+                        <div class="text-center" style="margin-top: 20px;">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 15rem; margin: 10px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <img src="./pic6.jpg" alt="Smiley face" height="80" width="80">
+                            <h5 class="card-title" style="margin-left: 10px;">Phone Cover</h5>
+                        </div>
+                        <div class="text-center" style="margin-top: 20px;">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container clearfix">
+        <button class="btn btn-outline-success my-2 my-sm-0 float-right" type="submit">Checkout</button>
+    </div>
+    <script>
+        var a=10;
+        var b=20;
+        const x="hai";
+        const object1={
+            title: "hortari"
+        }
+        let y="hello";
+        function sum(){
+            console.log("running")
+            console.log(object1.title)
+            console.log("sum=", a+b)
+        }
+        function car(color,name){
+            return{
+                color:
+                engineStatus: false,
+                engineStart: function(){
+                    this.engineStatus = true;
+                },
+                engineStop: function(){
+                    this.engineStatus = false;
+                },
+                engineStart: function(){
+                    console.log(this.engineStatus,a);
+                }
+            }
+        }
+        car();
+        sum();
+    </script>
+</body>
+
+</html>
